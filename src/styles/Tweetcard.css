@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(to bottom, #45a9ef ,#86e4f0, #45a9ef );
+}
+.container-generator {
+    padding: 10px;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.container-card {
+    background-color: #fff;
+    max-width: 600px;
+    border-radius: 4px;
+    display: flex;
+    padding: 10px;
+    padding-left: 0;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.container-header {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    
+}
+
+.avatar {
+    margin: 10px;
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.container-datos p span {
+    color: #2478fa;
+} 
+  
+
+.parrafo {
+    font-size: clamp(.8rem, 2.2vw, 1rem);
+    margin-right: 25px;
+    text-align: left;
+    white-space: normal;        /* Permite que el texto se ajuste en nuevas líneas */
+    overflow-wrap: break-word; 
+    overflow-wrap: break-word;
+    word-break: break-all;
+}
+.container-img {
+    width: 100%;
+    max-height: 281px;    
+    border-radius: 8px;
+    overflow: hidden;
+}
+.img-fondo {
+    width: 100%;
+   height: 279px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+footer {
+    display: flex;
+    
+}
+footer div {
+    display: flex;
+    gap: 8px;
+    width: 24%;
+    align-items: center;
+    font-size: 14px;
+    color: #666;
+}
+
+
+.container-form {
+   
+}
+.container-flex {
+    max-width: 1000px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+form {
+    display: flex;
+    gap: 5px;
+    padding: 40px;
+    flex-wrap: wrap;
+    
+}
+.datos {
+    display: flex;
+    flex-direction: column;
+    background-color: #e9a822;
+    flex-grow: 1;
+    padding: 20px;
+    border-radius: 8px;
+    justify-content: center;
+}
+
+
+.boton button {
+    padding: 5px 0;
+    background-color: #4ae;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+}
+
+input {
+    width: 90%;
+    padding: 3px;
+    outline: none;
+}
+.textarea {
+    width: 100%;
+}
+
+.textarea textarea {
+    resize: none;
+    outline: none;
+}
+
+.download {
+    padding: 20px 50px;
+    font-size: 2rem;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 30px;
+    color: #85c9df;
+}
